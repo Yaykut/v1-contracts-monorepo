@@ -5,6 +5,7 @@
 - BSC Testnet: https://testnet.bscscan.com/address/0xCDb27F0623EEc7A3Eb6b509CeA38cD6A7623339a
 - Rinkeby Testnet: https://rinkeby.etherscan.io/address/0xA647c43929Ce4a61871856485AFF7d943B7250B3
 - RSK Testnet: https://explorer.testnet.rsk.co/address/0x77f6a5f1b7a2b6d6c322af8581317d6bb0a52689
+- AVAX Testnet: https://cchain.explorer.avax-test.network/address/0x77f6A5f1B7a2b6D6C322Af8581317D6Bb0a52689
 - Condor Testnet: https://explorer-testnet.condor.vision/address/0x5e8163c373438766831b253f26297E4b247993eF
 
 ## CondorStakingNFT.sol
