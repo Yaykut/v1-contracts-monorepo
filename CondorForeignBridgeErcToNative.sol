@@ -667,9 +667,15 @@ contract CondorForeignBridgeErcToNative is Context, AccessControl, ReentrancyGua
     
     mapping(address => TransactionInfo[]) public userTransactions;
     mapping(address => mapping(uint => bool)) public processed;
+    
+    mapping(address => mapping(uint256 => TransactionInfo)) public userTransactionsByNonce;
       
-    fallback() external {
-        revert();
+    fallback() external payable {
+        
+    }
+    
+    receive() external payable {
+       
     }
     
     constructor(address _condor, uint256 _devFee, uint256 _burnFee, uint256 _bankFee, address _devWallet, address _burnWallet, address _bankWallet, address _auditorWallet, address _gatekeeperWallet) {
@@ -746,15 +752,6 @@ contract CondorForeignBridgeErcToNative is Context, AccessControl, ReentrancyGua
         totalFee = totalFee.add(devFee).add(burnFee).add(bankFee);
     }
     
-    function getUserPendingTransactions(address addr, uint256[] memory nonces) public view returns (uint256[] memory pending) {
-        
-        for (uint256 pid = 0; pid < nonces.length; pid++) {
-            if(!processed[addr][nonces[pid]]) {
-                pending[pid] = nonces[pid];
-            }
-        }
-    }
-    
     function deposit(address _to, uint256[] memory _amounts, bytes[] memory _signatures) external nonReentrant whenNotPaused {
         
        TransactionInfo memory transaction = TransactionInfo({
@@ -792,6 +789,7 @@ contract CondorForeignBridgeErcToNative is Context, AccessControl, ReentrancyGua
 
         transactions.push(transaction);
         userTransactions[_msgSender()].push(transaction);
+        userTransactionsByNonce[_msgSender()][transaction.nonce] = transaction;
         processed[_msgSender()][transaction.nonce] = true;
         
         condor.burn(_msgSender(), transaction.amount.sub(transaction.totalFeeAmount));
@@ -816,7 +814,6 @@ contract CondorForeignBridgeErcToNative is Context, AccessControl, ReentrancyGua
         });
         
         require(transaction.amount > 0, "Cannot transfer 0");
-        require(transaction.amount <= condor.balanceOf(_msgSender()), 'dont have enough balance');
         require(processed[_msgSender()][transaction.nonce] == false, 'transfer already processed');
         
         require(ECRecovery.isValidSignature(_msgSender(), _to, _msgSender(), _amounts, transaction.userSignature), 'user wrong signature');
@@ -830,6 +827,7 @@ contract CondorForeignBridgeErcToNative is Context, AccessControl, ReentrancyGua
       
         transactions.push(transaction);
         userTransactions[_msgSender()].push(transaction);
+        userTransactionsByNonce[_msgSender()][transaction.nonce] = transaction;
         processed[_msgSender()][transaction.nonce] = true;
         
         condor.mint(_to, transaction.amount.sub(transaction.totalFeeAmount));
