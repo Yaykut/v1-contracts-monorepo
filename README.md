@@ -14,5 +14,10 @@
 - BSC Testnet: https://testnet.bscscan.com/address/0x63bd1f5762A4d268091b51aa9A0bE4E5E1D04974
 
 ## CondorForeignBridgeErcToNative.sol
-- BSC Testnet: https://testnet.bscscan.com/address/0xdF556BD113FFC32CC85E098520BfC615438Ca16B
+- BSC Testnet: https://testnet.bscscan.com/address/0x50FCF4787369BDad09eFEa368D30D70fFdE0008e
+
+## CondorHomeBridgeErcToNative.sol
+- CONDOR Testnet: https://explorer-testnet.condor.vision/address/0xC6f8D5a93edD3EA76278eD3C888BBEBBC9741e09
+
+
 
