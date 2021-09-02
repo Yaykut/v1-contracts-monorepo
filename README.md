@@ -15,6 +15,10 @@
 
 ## CondorForeignBridgeErcToNative.sol
 - BSC Testnet: https://testnet.bscscan.com/address/0x50FCF4787369BDad09eFEa368D30D70fFdE0008e
+- Rinkeby Testnet: https://rinkeby.etherscan.io/address/0x082DbC4a232d4FAbe84B06A49f638815c09F50Fc
+- AVAX Testnet: https://cchain.explorer.avax-test.network/address/0x2B52D1B2b359eA39536069D8c6f2a3CFE3a09c31
+- RSK Testnet: https://explorer.testnet.rsk.co/address/0xa802b4b10e4376a552113445a442cca007b079f3
+- MATIC Testnet: https://mumbai.polygonscan.com/address/0x2B52D1B2b359eA39536069D8c6f2a3CFE3a09c31
 
 ## CondorHomeBridgeErcToNative.sol
 - CONDOR Testnet: https://explorer-testnet.condor.vision/address/0xC6f8D5a93edD3EA76278eD3C888BBEBBC9741e09
