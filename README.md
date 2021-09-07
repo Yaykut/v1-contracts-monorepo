@@ -14,14 +14,14 @@
 - BSC Testnet: https://testnet.bscscan.com/address/0x63bd1f5762A4d268091b51aa9A0bE4E5E1D04974
 
 ## CondorForeignBridgeErcToNative.sol
-- BSC Testnet: https://testnet.bscscan.com/address/0x50FCF4787369BDad09eFEa368D30D70fFdE0008e
-- Rinkeby Testnet: https://rinkeby.etherscan.io/address/0x082DbC4a232d4FAbe84B06A49f638815c09F50Fc
-- AVAX Testnet: https://cchain.explorer.avax-test.network/address/0x2B52D1B2b359eA39536069D8c6f2a3CFE3a09c31
-- RSK Testnet: https://explorer.testnet.rsk.co/address/0xa802b4b10e4376a552113445a442cca007b079f3
-- MATIC Testnet: https://mumbai.polygonscan.com/address/0x2B52D1B2b359eA39536069D8c6f2a3CFE3a09c31
+- BSC Testnet: https://testnet.bscscan.com/address/0x33BE50F92e17Fc0B88C29af5Ce0BEE9dD0880E68
+- Rinkeby Testnet: https://rinkeby.etherscan.io/address/0x13aAbf7134615b466112825f1816E69af46CCE08
+- AVAX Testnet: https://cchain.explorer.avax-test.network/address/0xa802b4B10e4376A552113445A442cCA007b079F3
+- RSK Testnet: https://explorer.testnet.rsk.co/address/0x96853087c9e364fe9554fd6fcfe13bcd942b04d5
+- MATIC Testnet: https://mumbai.polygonscan.com/address/0xa802b4B10e4376A552113445A442cCA007b079F3
 
 ## CondorHomeBridgeErcToNative.sol
-- CONDOR Testnet: https://explorer-testnet.condor.vision/address/0xC6f8D5a93edD3EA76278eD3C888BBEBBC9741e09
+- CONDOR Testnet: https://explorer-testnet.condor.vision/address/0xD3ddfE9FC5F690377e63BeBfB7e6c58f7c59F028
 
 
 
