@@ -21,7 +21,7 @@
 - MATIC Testnet: https://mumbai.polygonscan.com/address/0xa802b4B10e4376A552113445A442cCA007b079F3
 
 ## CondorHomeBridgeErcToNative.sol
-- CONDOR Testnet: https://explorer-testnet.condor.vision/address/0x2B52D1B2b359eA39536069D8c6f2a3CFE3a09c31
+- CONDOR Testnet: https://explorer-testnet.condor.vision/address/0xa802b4B10e4376A552113445A442cCA007b079F3
 
 
 
