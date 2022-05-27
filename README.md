@@ -4,6 +4,11 @@
 
 ![Screenshot](https://raw.githubusercontent.com/condor-vision/v1-contracts-monorepo/main/CONDOR%20PROTOCOL%20BRIDGE%20ERC%20TO%20NATIVE%20PROPOSAL.drawio.png)
 
+## Videos / Demos
+
+- https://www.youtube.com/watch?v=brhXIVKWdkE
+- https://www.youtube.com/watch?v=eZ-CDRQrxLY
+
 ## CondorWrappedERC20.sol
 - BSC Mainnet: https://bscscan.com/address/0x878b87Ce0d7D877855a65492EB6a4Ca50849aC97
 - BSC Testnet: https://testnet.bscscan.com/address/0xCDb27F0623EEc7A3Eb6b509CeA38cD6A7623339a
