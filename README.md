@@ -1,8 +1,9 @@
 # v1-contracts-monorepo
 
-![Screenshot](CONDOR BRIDGE ARCHITECTURE PROPOSAL.drawio.png)
 
-![Screenshot](CONDOR PROTOCOL BRIDGE ERC TO NATIVE PROPOSAL.drawio.png)
+![Screenshot]([CONDOR BRIDGE ARCHITECTURE PROPOSAL.drawio.png](https://raw.githubusercontent.com/condor-vision/v1-contracts-monorepo/main/CONDOR%20BRIDGE%20ARCHITECTURE%20PROPOSAL.drawio.png))
+
+![Screenshot]([CONDOR PROTOCOL BRIDGE ERC TO NATIVE PROPOSAL.drawio.png](https://raw.githubusercontent.com/condor-vision/v1-contracts-monorepo/main/CONDOR%20PROTOCOL%20BRIDGE%20ERC%20TO%20NATIVE%20PROPOSAL.drawio.png))
 
 ## CondorWrappedERC20.sol
 - BSC Mainnet: https://bscscan.com/address/0x878b87Ce0d7D877855a65492EB6a4Ca50849aC97
